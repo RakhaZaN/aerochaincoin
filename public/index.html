@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Aerochain</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/fav.svg" />
+    <script src="js/main.js"></script>
+</head>
+
+<body class="antialiased bg-body text-body font-body">
+    <div class="">
+        <section class="bg-black bb">
+            <div class="container px-4 mx-auto">
+                <!-- Navbar -->
+                <nav class="flex justify-between items-center py-6">
+                    <a class="text-3xl font-semibold leading-none" href="#"><img src="./assets/images/icon.svg"
+                            alt="undefined" width="200" /></a>
+                    <div class="lg:hidden">
+                        <button
+                            class="navbar-burger flex items-center py-2 px-3 text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">
+                            <svg class="fill-current h-4 w-4" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <title>Mobile menu</title>
+                                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
+                        <li>
+                            <a class="text-sm text-slate-400 hover:text-slate-500" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="text-sm text-slate-400 hover:text-slate-500" href="#roadmap">Roadmap</a>
+                        </li>
+                        <li>
+                            <a class="text-sm text-slate-400 hover:text-slate-500" href="#tokenomics">Tokenomics</a>
+                        </li>
+                        <li>
+                            <a class="text-sm text-slate-400 hover:text-slate-500" href="#team">Team</a>
+                        </li>
+                        <li>
+                            <a class="text-sm text-slate-400 hover:text-slate-500" href="#community">Community</a>
+                        </li>
+                    </ul>
+                    <div class="hidden lg:block">
+                        <a class="inline-block px-4 py-3 text-xs font-semibold leading-none text-white rounded bg-yellow-500 hover:bg-yellow-600 transition"
+                            href="https://drive.google.com/file/d/10TLbFZ_noYVgKZsvNmbqmAqsi8Xcm-CM/view?usp=sharing"
+                            target="_blank">Contract Audit</a>
+                    </div>
+                </nav>
+                <div class="flex flex-wrap items-center -mx-3" id="about">
+                    <div class="w-full lg:w-1/2 px-3">
+                        <div class="py-12">
+                            <div
+                                class="max-w-lg mx-auto lg:mx-0 mb-8 text-center lg:text-left bg-gray-800 p-2 rounded-lg">
+                                <h2 class="text-3xl md:text-4xl mb-4 font-bold font-heading">
+                                    <span class="text-gray-100">Welcome to</span>
+                                    <span class="text-yellow-500">AEROCHAIN</span><br />
+                                    <span class="text-gray-100">a blockchain, simplified.</span>
+                                </h2>
+                                <p class="text-white leading-relaxed">
+                                    Aerochain is a blockchain that provides everything you
+                                    need.<br /><br />
+                                    Aerochain has an experienced and based on Dev team with
+                                    plenty of experience behind them to see the project grow.
+                                    Our team is active, and the platform keep evolving over the
+                                    next few months. We're ready for new features, competitions,
+                                    challenges, donations and more...<br /><br />
+                                    with a Huge Potential Long Term and an experienced Team, we
+                                    knows how to create serious Huge HYPE by promoting it
+                                    everywhere.
+                                </p>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <a class="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none rounded bg-yellow-500 hover:bg-yellow-600 transition"
+                                    href="https://pancakeswap.finance/swap?outputCurrency=0x318559abcc35eb3f2c39e7f70bf9362b185a21f6">BUY
+                                    $AERO</a><a
+                                    class="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-slate-500 hover:text-slate-600 text-center font-semibold leading-none bg-white border border-slate-200 hover:border-slate-300 rounded"
+                                    href="https://poocoin.app/tokens/0x318559abcc35eb3f2c39e7f70bf9362b185a21f6">$AERO
+                                    CHART</a><a
+                                    class="block sm:inline-block py-4 px-8 text-xs text-slate-500 hover:text-slate-600 text-center font-semibold leading-none bg-white border border-slate-200 hover:border-slate-300 rounded"
+                                    href="/Aerochain Whitepaper_final.pdf" target="_blank">WHITEPAPER</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 px-3 mb-12 lg:mb-0">
+                        <div class="lg:h-128 flex items-center justify-center">
+                            <img class="lg:max-w-lg" id="wing" src="./assets/images/fav.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Off canvas | sidebar menu -->
+            <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+                <div class="navbar-backdrop fixed inset-0 bg-slate-800 opacity-25"></div>
+                <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
+                    <div class="flex items-center mb-8">
+                        <a class="mr-auto text-3xl font-semibold leading-none" href="#"><img
+                                src="./assets/images/icon.svg" alt="undefined" width="200" /></a>
+                        <button class="navbar-close">
+                            <svg class="h-6 w-6 text-slate-400 cursor-pointer hover:text-slate-500"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-600"
+                                    href="#about">About</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-600"
+                                    href="#roadmap">Roadmap</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-600"
+                                    href="#tokenomics">Tokenomics</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-600"
+                                    href="#team">Team</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-600"
+                                    href="#community">Community</a>
+                            </li>
+                        </ul>
+                        <div class="mt-4 pt-6 border-t border-slate-100">
+                            <a class="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded"
+                                href="/Aero-BSC-Audit-15082300.pdf" target="_blank">Contract Audit</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section class="py-32 bg-black" id="roadmap">
+            <div class="container px-4 mx-auto">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full lg:w-1/3 mb-12 md:mb-16 px-3">
+                        <div class="max-w-md lg:max-w-xs">
+                            <h2 class="mt-3 text-3xl md:text-4xl font-bold font-heading text-gray-100">
+                                Our Roadmaps
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-full lg:w-2/3 px-3">
+                        <div class="w-full md:w-1/2 px-3 mb-12">
+                            <div class="flex flex-col items-start">
+                                <div class="p-3 rounded-full text-white bg-yellow-500">
+                                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewbox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="mb-3 text-xl font-semibold font-heading text-gray-100">
+                                        Foundation Build
+                                    </h3>
+                                    <p class="text-slate-400 leading-loose">
+                                        We're gonna do some press release and audit the contract
+                                        with Dessert Finance. And also open an AMA on Phoenix
+                                        Chain and surely do some massive calls
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 px-3 mb-12">
+                            <div class="flex flex-col items-start">
+                                <div class="p-3 rounded-full text-white bg-yellow-500">
+                                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewbox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="mb-3 text-xl font-semibold font-heading text-gray-100">
+                                        Start Developing
+                                    </h3>
+                                    <p class="text-slate-400 leading-loose">
+                                        After we have our strong foundation build, we will shift
+                                        our next focus to the development of the blockchain, we'll
+                                        be actively in touch with our community to share the
+                                        development progress
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 px-3 mb-12">
+                            <div class="flex flex-col items-start">
+                                <div class="p-3 rounded-full text-white bg-yellow-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                                    </svg>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="mb-3 text-xl font-semibold font-heading text-gray-100">
+                                        Community Events
+                                    </h3>
+                                    <p class="text-slate-400 leading-loose">
+                                        We'll also gonna held many community events such as
+                                        giveaways, contest, and many more. Be sure to join us!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 px-3 mb-12">
+                            <div class="flex flex-col items-start">
+                                <div class="p-3 rounded-full text-white bg-yellow-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                                    </svg>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="mb-3 text-xl font-semibold font-heading text-gray-100">
+                                        Heavy Marketing
+                                    </h3>
+                                    <p class="text-slate-400 leading-loose">
+                                        More heavy marketing on the project to attract more future
+                                        investors to join the projects!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 px-3 mb-12">
+                            <div class="flex flex-col items-start">
+                                <div class="p-3 rounded-full text-white bg-yellow-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="mb-3 text-xl font-semibold font-heading text-gray-100">
+                                        Blockchain Launch
+                                    </h3>
+                                    <p class="text-slate-400 leading-loose">TBA!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 px-3 mb-12">
+                            <div class="flex flex-col items-start">
+                                <div class="p-3 rounded-full text-white bg-yellow-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                                    </svg>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="mb-3 text-xl font-semibold font-heading text-gray-100">
+                                        Heavy Marketing 2
+                                    </h3>
+                                    <p class="text-slate-400 leading-loose">
+                                        Heavy marketing after the blokchain launch!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-20" id="tokenomics">
+            <div class="container px-4 mx-auto">
+                <div class="max-w-lg mx-auto mb-16 text-center">
+                    <h2 class="mt-4 mb-2 text-3xl lg:text-4xl font-bold font-heading">
+                        <span>Our</span>
+                        <span class="text-yellow-500">Tokenomics</span>
+                    </h2>
+                    <p class="leading-loose text-2xl font-bold">
+                        Total Supply 100.000.000.000
+                    </p>
+                </div>
+                <div class="flex relative">
+                    <div
+                        class="hidden md:flex absolute inset-0 -mt-24 px-16 items-center justify-center max-w-4xl mx-auto">
+                        <div class="w-full py-1 shadow"></div>
+                    </div>
+                    <div class="flex flex-wrap justify-between w-full lg:gap-1">
+                        <div class="w-full md:w-1/4 z-10 mb-12 bg-yellow-500 p-5 rounded-md">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center font-semibold rounded-full hover:bg-yellow-500 text-yellow-500 hover:text-white transition">
+                                    1
+                                </div>
+                            </div>
+                            <p class="mt-6 lg:text-lg font-heading text-center font-bold text-base text-white">
+                                Dev wallet 5% (5.000.000.000)
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/4 z-10 mb-12 shadow-md bg-white p-5">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center text-slate-400 font-semibold bg-slate-50 rounded-full hover:bg-yellow-500 transition hover:text-white">
+                                    2
+                                </div>
+                            </div>
+                            <p class="mt-6 text-base lg:text-lg text-slate-400 font-bold font-heading text-center">
+                                Marketing wallet 5% (5.000.000.000)
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/4 z-10 mb-12 p-5 rounded-md bg-yellow-500">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center text-yellow-500 font-semibold bg-slate-50 rounded-full hover:bg-yellow-500 hover:text-white transition">
+                                    3
+                                </div>
+                            </div>
+                            <p class="mt-6 text-base lg:text-lg text-white font-bold font-heading text-center">
+                                RnD wallet 5% (5.000.000.000)
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/4 z-10 mb-12 shadow-md bg-white p-5">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center text-slate-400 font-semibold bg-slate-50 rounded-full hover:bg-yellow-500 hover:text-white transition">
+                                    4
+                                </div>
+                            </div>
+                            <p class="mt-6 text-base lg:text-lg text-slate-400 font-bold font-heading text-center">
+                                Burn 10%<br />
+                                (10.000.000.000)
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/4 z-10 mb-12 bg-yellow-500 rounded-md p-5">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center font-semibold rounded-full hover:bg-yellow-500 text-yellow-500 hover:text-white transition">
+                                    5
+                                </div>
+                            </div>
+                            <p class="mt-6 text-base lg:text-lg font-bold font-heading text-center text-white">
+                                Presale 38% (200 BNB) (38.000.000.000)<br />(1 BNB =
+                                190.000.000 Token)
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/4 z-10 mb-12 shadow-md bg-white p-5">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center text-slate-400 font-semibold bg-slate-50 rounded-full hover:bg-yellow-500 hover:text-white transition">
+                                    6
+                                </div>
+                            </div>
+                            <p class="mt-6 text-base lg:text-lg text-slate-400 font-bold font-heading text-center">
+                                Private 10% (50 BNB)<br />(1 BNB = 200.000.000 Token)
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/4 z-10 mb-12 bg-yellow-500 rounded-md p-5">
+                            <div
+                                class="flex w-20 h-20 mx-auto items-center justify-center shadow bg-white rounded-full">
+                                <div
+                                    class="flex w-16 h-16 mx-auto items-center justify-center text-yellow-500 font-semibold bg-slate-50 rounded-full hover:text-white hover:bg-yellow-500 transition">
+                                    7
+                                </div>
+                            </div>
+                            <p class="mt-6 text-base lg:text-lg text-white font-bold font-heading text-center">
+                                Add supply &amp; LP 27%<br />(150 BNB)<br />(1 BNB =
+                                180.000.000 Token)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-20 xl:bg-contain bg-top bg-no-repeat"
+            style="background-image: url('metis-assets/backgrounds/intersect.svg')">
+            <div class="container px-4 mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading">
+                        <span class="text-yellow-500">Taxes</span>
+                    </h2>
+                </div>
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full md:w-1/2 px-3 mb-6">
+                        <div class="pt-16 pb-8 px-4 text-center bg-white rounded drop-shadow-md">
+                            <img class="h-20 mb-6 mx-auto" src="./assets/images/buy.png" alt="" />
+                            <span class="text-4xl font-bold font-heading text-yellow-500">Buy (6%)</span>
+                            <div class="flex flex-col items-center my-8">
+                                <ul class="text-slate-400">
+                                    <li class="flex mb-3">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>1% Dev</span>
+                                    </li>
+                                    <li class="flex mb-3">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>2% Marketing</span>
+                                    </li>
+                                    <li class="flex mb-3">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>2% For holders </span>
+                                    </li>
+                                    <li class="flex">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>1% RnD</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3 mb-6">
+                        <div class="pt-16 pb-8 px-4 text-center text-white bg-slate-800 rounded drop-shadow-md">
+                            <img class="h-20 mb-6 mx-auto" src="./assets/images/sell.png" alt="" />
+                            <h3 class="mb-2 text-4xl font-bold font-heading">Sell (8%)</h3>
+                            <div class="flex flex-col items-center my-8">
+                                <ul>
+                                    <li class="flex items-center mb-3">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>1% Dev</span>
+                                    </li>
+                                    <li class="flex items-center mb-3">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>2% Marketing</span>
+                                    </li>
+                                    <li class="flex items-center mb-3">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>2% For holders </span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg><span>3% RnD</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-20" id="team">
+            <div class="container px-4 mx-auto text-center">
+                <div class="max-w-lg mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading text-yellow-500"
+                        data-config-id="header">
+                        Meet The Team!
+                    </h2>
+                </div>
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full md:w-1/2 lg:w-1/4 px-3 mb-12">
+                        <img class="h-64 w-64 mx-auto rounded object-cover object-top" src="./assets/images/team/ceo.jpg" alt=""
+                            data-config-id="image1" />
+                        <p class="mt-6 text-xl font-bold" data-config-id="name1">
+                            Samuel Tabuty
+                        </p>
+                        <p class="mt-2 mb-4" data-config-id="title1">CEO</p>
+                        <div class="flex py-2 justify-center space-x-2 bg-blue-500 rounded-full text-white">
+                            <span>
+                                <i class="fa-brands fa-telegram fa-xl"></i>
+                            </span>
+                            <p>@samueltabutyy</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 px-3 mb-12">
+                        <img class="h-64 w-64 mx-auto rounded object-cover object-top" src="./assets/images/team/coo.jpg" alt=""
+                            data-config-id="image2" />
+                        <p class="mt-6 text-xl font-bold" data-config-id="name2">
+                            Yosef HW
+                        </p>
+                        <p class="mt-2 mb-4" data-config-id="title2">COO</p>
+                        <div class="flex py-2 justify-center space-x-2 bg-blue-500 rounded-full text-white">
+                            <span>
+                                <i class="fa-brands fa-telegram fa-xl"></i>
+                            </span>
+                            <p>@JKlouisW</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 px-3 mb-12">
+                        <img class="h-64 w-64 mx-auto rounded object-cover object-top"
+                            src="./assets/images/team/globalRelation.JPG" alt="" data-config-id="image3" />
+                        <p class="mt-6 text-xl font-bold" data-config-id="name3">
+                            Yesaya Ray
+                        </p>
+                        <p class="mt-2 mb-4" data-config-id="title3">Global Relation</p>
+                        <div class="flex py-2 justify-center space-x-2 bg-blue-500 rounded-full text-white">
+                            <span>
+                                <i class="fa-brands fa-telegram fa-xl"></i>
+                            </span>
+                            <p>@Sir_Squidward</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 px-3 mb-12">
+                        <img class="h-64 w-64 mx-auto rounded object-cover object-top"
+                            src="./assets/images/team/publicRelation.jpg" alt="" data-config-id="image4" />
+                        <p class="mt-6 text-xl font-bold" data-config-id="name4">
+                            Nico Adistya
+                        </p>
+                        <p class="mt-2 mb-4" data-config-id="title4">Public Relation</p>
+                        <div class="flex py-2 justify-center space-x-2 bg-blue-500 rounded-full text-white">
+                            <span>
+                                <i class="fa-brands fa-telegram fa-xl"></i>
+                            </span>
+                            <p>@Markk168</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 px-3 mb-12">
+                        <img class="h-64 w-64 mx-auto rounded object-cover object-top"
+                            src="./assets/images/team/scriptleader.jpg" alt="" data-config-id="image5" />
+                        <p class="mt-6 text-xl font-bold" data-config-id="name5">
+                            Sisi Indri
+                        </p>
+                        <p class="mt-2 mb-4" data-config-id="title5">Script Leader</p>
+                        <div class="flex py-2 justify-center space-x-2 bg-blue-500 rounded-full text-white">
+                            <span>
+                                <i class="fa-brands fa-telegram fa-xl"></i>
+                            </span>
+                            <p>@sisiindri</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 px-3 mb-12">
+                        <img class="h-64 w-64 mx-auto rounded object-cover object-top"
+                            src="./assets/images/team/socialMediaLeader.jpg" alt="" data-config-id="image6" />
+                        <p class="mt-6 text-xl font-bold" data-config-id="name6">
+                            Hadasa Kwok
+                        </p>
+                        <p class="mt-2 mb-4" data-config-id="title6">
+                            Social Media Leader
+                        </p>
+                        <div class="flex py-2 justify-center space-x-2 bg-blue-500 rounded-full text-white">
+                            <span>
+                                <i class="fa-brands fa-telegram fa-xl"></i>
+                            </span>
+                            <p>@KellyDwyne</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-20" id="community">
+            <div class="container px-4 mx-auto">
+                <div class="max-w-2xl lg:max-w-3xl mx-auto">
+                    <div class="mb-12 text-center">
+                        <h2 class="text-4xl font-bold font-heading">
+                            Join Our Community!
+                        </h2>
+                    </div>
+                    <div class="flex flex-wrap -mx-3 text-center">
+                        <div class="w-1/2 px-3 mb-12">
+                            <a href="https://t.me/AEROCHAINCoin" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                                    class="svg-inline--fa fa-telegram h-12 w-12 mx-auto text-blue-600" role="img"
+                                    viewbox="0 0 496 512">
+                                    <path fill="currentColor"
+                                        d="M248 8C111 8 0 119 0 256S111 504 248 504 496 392.1 496 256 384.1 8 248 8zM362.1 176.7c-3.732 39.22-19.88 134.4-28.1 178.3-3.476 18.58-10.32 24.82-16.95 25.42-14.4 1.326-25.34-9.517-39.29-18.66-21.83-14.31-34.16-23.22-55.35-37.18-24.49-16.14-8.612-25 5.342-39.5 3.652-3.793 67.11-61.51 68.33-66.75 .153-.655 .3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283 .746-104.6 69.14-14.85 10.19-26.89 9.934c-8.855-.191-25.89-5.006-38.55-9.123-15.53-5.048-27.88-7.717-26.8-16.29q.84-6.7 18.45-13.7 108.4-47.25 144.6-62.3c68.87-28.65 83.18-33.62 92.51-33.79 2.052-.034 6.639 .474 9.61 2.885a10.45 10.45 0 0 1 3.53 6.716A43.76 43.76 0 0 1 362.1 176.7z">
+                                    </path>
+                                </svg>
+                                <div class="leading-relaxed">
+                                    <span class="text-sm text-slate-400">Telegram</span>
+                                    <p>@AEROCHAINcoin</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-1/2 px-3 mb-12">
+                            <a href="https://twitter.com/AEROCHAINcoin" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                                    class="svg-inline--fa fa-twitter h-12 w-12 mx-auto text-blue-600" role="img"
+                                    viewbox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z">
+                                    </path>
+                                </svg>
+                                <div class="leading-relaxed">
+                                    <span class="text-sm text-slate-400">Twitter</span>
+                                    <p>@AEROCHAINcoin</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <form></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-16 bg-black">
+            <div class="container px-4 mx-auto">
+                <div class="flex flex-col lg:flex-row flex-wrap items-center justify-center lg:justify-between">
+                    <div class="flex flex-col lg:flex-row mb-8 lg:mb-0">
+                        <a class="inline-block mb-8 lg:mb-0 mx-auto lg:ml-0 lg:mr-12 text-3xl font-semibold leading-none"
+                            href="#"><img src="./assets/images/icon.svg" alt="" width="200" /></a>
+                    </div>
+                    <div class="lg:flex lg:flex-wrap lg:items-center">
+                        <span class="block mb-6 lg:mb-0 lg:mr-12 text-center lg:text-left text-slate-400">© 2022.
+                            AEROCHAIN All Rights Reserve</span>
+                        <a class="w-full md:w-1/4 text-center inline-block py-4 px-8 text-xs text-white leading-none font-semibold rounded bg-yellow-500 hover:bg-yellow-600 transition"
+                            href="#">BUY $AERO</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/6fbfc3b77f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
